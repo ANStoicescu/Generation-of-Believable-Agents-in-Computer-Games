@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/Agents/AgentButtonStyle.uss?fileID=7433441132597879392&amp;guid=bedfc820d33637d4ea6966b928370224&amp;type=3#AgentButtonStyle" />
+    <ui:VisualElement name="AgentButton" style="margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; height: auto; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: rgb(85, 163, 165);">
+        <ui:VisualElement name="CharacterPhoto" class="border" style="flex-grow: 1; width: 100px; height: 100px; flex-direction: column; justify-content: center; align-self: center; background-color: rgb(8, 76, 97); margin-top: 10px;" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="CharacterName" style="align-self: center;" />
+    </ui:VisualElement>
+</ui:UXML>

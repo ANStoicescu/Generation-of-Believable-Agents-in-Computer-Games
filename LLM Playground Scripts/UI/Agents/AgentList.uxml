@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/Agents/AgentListStyle.uss?fileID=7433441132597879392&amp;guid=dc7a2136a80b01b4fb2f17fc3fac8960&amp;type=3#AgentListStyle" />
+    <ui:VisualElement picking-mode="Ignore" style="flex-direction: row; height: auto; top: 40px; width: auto; left: 210px;">
+        <ui:ListView name="CharacterList" virtualization-method="DynamicHeight" class="border" style="width: 150px; margin-right: 6px; background-color: rgba(255, 255, 255, 0.39); height: 1000px;" />
+        <ui:VisualElement picking-mode="Ignore" style="align-items: flex-end; justify-content: space-between;">
+            <ui:VisualElement class="border" style="width: 276px; align-items: center; justify-content: center; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; background-color: rgb(85, 163, 165);">
+                <ui:VisualElement name="CharacterPhoto" class="border" style="width: 120px; height: 120px; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px; background-color: rgb(8, 76, 97); flex-grow: 1;" />
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CharacterName" style="-unity-font-style: bold; font-size: 18px;" />
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CharacterIsPlayer" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

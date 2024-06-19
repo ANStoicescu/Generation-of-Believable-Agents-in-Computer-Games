@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/PlaceableObjects/PlaceableObjectButtonStyle.uss?fileID=7433441132597879392&amp;guid=2d719273a33dff74c9679ebde6568ea1&amp;type=3#PlaceableObjectButtonStyle" />
+    <ui:VisualElement name="PlaceableObjectButton" style="margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; height: auto; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: rgb(85, 163, 165);">
+        <ui:VisualElement name="PlaceableObjectPhoto" class="border" style="flex-grow: 1; width: 100px; height: 100px; flex-direction: column; justify-content: center; align-self: center; background-color: rgb(8, 76, 97); margin-top: 10px;" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="PlaceableObjectName" style="align-self: center;" />
+    </ui:VisualElement>
+</ui:UXML>

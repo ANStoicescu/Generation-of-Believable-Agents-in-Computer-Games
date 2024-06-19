@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/PlaceableObjects/PlaceableObjectListStyle.uss?fileID=7433441132597879392&amp;guid=35f9437fc2a3fbb458d008132a0db873&amp;type=3#FurnitureListStyle" />
+    <ui:VisualElement picking-mode="Ignore" style="flex-direction: row; height: auto; top: 40px; width: auto; left: 210px;">
+        <ui:ListView name="PlaceableObjectList" virtualization-method="DynamicHeight" class="border" style="width: 180px; margin-right: 6px; background-color: rgba(255, 255, 255, 0.39); height: 1000px;" />
+    </ui:VisualElement>
+</ui:UXML>
